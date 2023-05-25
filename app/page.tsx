@@ -1,3 +1,11 @@
+import { Directory } from "../components/directory/directory.component";
+
+import { HomePageContainer } from "./homepage.styles";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <HomePageContainer>
+      <Directory />
+    </HomePageContainer>
+  );
 }
